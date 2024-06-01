@@ -2,12 +2,22 @@
 import React from 'react';
 import Link from 'next/link';
 import { PhoneIcon } from '@heroicons/react/24/solid';
+import Image from 'next/image';
 // import Cards from '@/components/Cards';
 // import Footer from '@/components/Footer';
 
 const Hero = () => {
   return (
-    <div className='container mt-24 max-w-full flex flex-col items-center justify-center h-[820px] bg-slate-600 place-self-auto z-40'>
+    <div className='container max-w-full flex flex-col items-center justify-center min-h-screen place-self-auto z-40'>
+      <Image 
+        src={'/building1.jpg'} 
+        // height={820} 
+        // width={auto}
+        fill
+        quality={100}
+        alt='' 
+        className='z-1'
+      />
       <div className='px-12 flex flex-col items-center justify-center z-50'>
         <p className='text-[34px] md:text-[52px] lg:text-[64px] font-medium text-center text-[#202020]'>
           Your <span className='font-black text-[#FFB814]'>destination</span> to finding <br /> home <span className='font-black text-[#FFB814]'>sweet home</span>
@@ -25,9 +35,9 @@ const Hero = () => {
         </Link>
       </div>
 
-      <div className='z-1'>
+      {/* <div className='z-1'>
         <img className='h-[200px] bg-center -z-10 place-content-center' src="./assets/building1.jpg" alt="bg" />
-      </div>
+      </div> */}
 
     </div>
   )
