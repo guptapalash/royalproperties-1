@@ -20,7 +20,7 @@ const Hero = () => {
         </p>
         
         <p className='text-[16px] md:text-[18px] lg:text-[20px] text-center text-[#202020]'>
-          The Royal Properties is a leading real estate agency offering wide range of 2, 3 and 4 BHK luxury flats, <br />
+          The Royal Properties is a leading real estate agency offering wide range of 1, 2, 3 and 4 BHK luxury flats, <br />
           Bungalows and apartments in Baner, Bavdhan, Kothrud, Hinjewadi and Wakad.
         </p>
 

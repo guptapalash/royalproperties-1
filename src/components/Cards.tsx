@@ -14,7 +14,7 @@ const Cards = () => {
                 <Image width={400} height={340} alt='' src={'/r9.jpg'} />
                 <p className='my-4 md:text-[24px]'>
                     kolte Patil Life Republic <br />
-                    GOro Avenue R9
+                    Oro Avenue R9
                 </p>
                 <p className='text-[14px] md:text-[20px] font-medium'>
                     630 sqft.
