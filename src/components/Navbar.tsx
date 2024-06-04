@@ -7,14 +7,14 @@ import React, { Fragment } from 'react'
 
 const Navbar = () => {
   return (
-    <Popover className='bg-white container max-w-full flex items-center px-6 border-b-2 h-24 fixed z-50'>
+    <Popover className='bg-white container max-w-full flex items-center px-6 border-b-2 text-[18px] h-24 fixed z-50'>
         <Link href={"/"}><img src="/logo2.svg" alt="logo" className='h-[64px]' /></Link>
 
         <div className='grow'>
             <div className='hidden sm:flex items-center justify-center gap-2 md:gap-8'>
-              <Link href="/" className=''>Home</Link>
-              <Link href="/Aboutus">About us</Link>
-              <Link href="/Contactus">Contact us</Link>
+              <Link href="/" className='hover:font-medium'>Home</Link>
+              <Link href="/Aboutus" className='hover:font-medium'>About us</Link>
+              <Link href="/Contactus" className='hover:font-medium'>Contact us</Link>
             </div>
         </div>
 
@@ -58,20 +58,20 @@ const Navbar = () => {
 
                 <div className='mt-6'>
                   <nav className='grid gap-y-8'>
-                    <Link href="/" className='focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'>
+                    <Link href="/" className='focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 hover:font-medium'>
                       Home
                     </Link>
-                    <Link href="/" className='focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'>
+                    <Link href="/Aboutus" className='focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 hover:font-medium'>
                       About us
                     </Link>
-                    <Link href="/" className='focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2'>
+                    <Link href="/Contactus" className='focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 px-2 hover:font-medium'>
                       contact us
                     </Link>
                   </nav>
                 </div>
 
                 <div className='mt-6 flex flex-col items-center gap-2'>
-                  <Link className='rounded-md bg-white px-4 py-2 text-sm font-medium text-black md:text-xl w-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500' href="">
+                  <Link className='rounded-md bg-white px-4 py-2 text-sm font-medium text-black md:text-xl w-full focus:outline-none focus:ring-2 focus:ring-inset focus:ring-gray-500 hover:font-medium' href="">
                     +91-9145282041
                   </Link>
                 </div>
@@ -83,7 +83,7 @@ const Navbar = () => {
         </Transition>
 
         <div>
-          <Link className='sm:block font-medium hidden' href="">+91-9145282041</Link>
+          <Link className='sm:block font-medium hidden hover:font-medium' href="">+91-9145282041</Link>
         </div>
     </Popover>
   )

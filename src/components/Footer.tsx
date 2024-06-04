@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
   return (
-    <div className='relative container bg-[#FFB814] max-w-full flex flex-col sm:flex-row items-center gap-40 justify-center h-[560px] sm:h-[160px]'>
+    <div className='container bg-[#FFB814] max-w-full flex flex-col sm:flex-row items-center gap-40 justify-center h-[560px] sm:h-[160px]'>
         <div className='flex flex-row items-center gap-2'>
             <MapPinIcon className='h-10' />
             <p>

@@ -3,16 +3,12 @@ import React from 'react';
 import Link from 'next/link';
 import { PhoneIcon } from '@heroicons/react/24/solid';
 import Image from 'next/image';
-// import Cards from '@/components/Cards';
-// import Footer from '@/components/Footer';
 
 const Hero = () => {
   return (
     <div className='container max-w-full flex flex-col items-center justify-center min-h-screen place-self-auto z-40'>
       <Image 
         src={'/building1.jpg'} 
-        // height={820} 
-        // width={auto}
         fill
         quality={100}
         alt='' 
@@ -34,10 +30,6 @@ const Hero = () => {
           </button>
         </Link>
       </div>
-
-      {/* <div className='z-1'>
-        <img className='h-[200px] bg-center -z-10 place-content-center' src="./assets/building1.jpg" alt="bg" />
-      </div> */}
 
     </div>
   )
